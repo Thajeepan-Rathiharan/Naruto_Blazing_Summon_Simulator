@@ -7,6 +7,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('../IMG/background.png'); /* Path to my background image in my IMG folder. */
+    background-size: cover; /* Covers the entire page. */
+    background-position: center; /* Centers the image. */
+    background-repeat: no-repeat; /* Prevents the image from repeating if the images cuts off for being too small. */
 }
 
 /* CSS rules for container on the page. */
