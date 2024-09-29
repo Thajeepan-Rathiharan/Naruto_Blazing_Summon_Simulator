@@ -57,6 +57,7 @@ button:hover {
     background-color: #f9f9f9; /* Optional: background color */
 }
 
+/* Media query to make it responsive on tablet devices. */
 @media (max-width: 768px) {
     .summoned-character {
         flex: 1 0 45%; /* On tablets, two images per row */
@@ -64,6 +65,7 @@ button:hover {
     }
 }
 
+/* Media query to make it responsive on mobile devices. */
 @media (max-width: 480px) {
     .summoned-character {
         flex: 1 0 90%; /* On phones, take up most of the width */
