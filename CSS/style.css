@@ -18,33 +18,35 @@ body {
 }
 
 button {
-    border: none; /* Remove default button border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer */
-    position: relative; /* Position for absolute child elements */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    width: 150px; /* Set button width */
-    height: 50px; /* Set button height */
-    overflow: hidden; /* Hide overflow */
+    border: none; /* Remove default button border. */
+    border-radius: 5px; /* Rounded corners. */
+    cursor: pointer; /* Change cursor to pointer. */
+    position: relative; /* Position for absolute child elements. */
+    padding: 0; /* Remove default padding. */
+    display: flex; /* Use flexbox for layout. */
+    align-items: center; /* Center vertically. */
+    justify-content: center; /* Center horizontally. */
+    width: 150px; /* Set button width. */
+    height: 50px; /* Set button height. */
+    overflow: hidden; /* Hide overflow. */
+    left: 200px; /* Moved buttons in the middle. */
+    margin: 20px;
 }
 
 .button-image {
-    width: 100%; /* Image takes full width */
-    height: 100%; /* Image takes full height */
-    object-fit: cover; /* Maintain aspect ratio */
-    position: absolute; /* Position image absolutely */
+    width: 100%; /* Image takes full width. */
+    height: 100%; /* Image takes full height. */
+    object-fit: cover; /* Maintain aspect ratio. */
+    position: absolute; /* Position image absolutely. */
     top: 0;
     left: 0;
 }
 
 span {
-    position: relative; /* Position text relative to button */
-    color: black; /* Text color */
-    z-index: 1; /* Ensure text is above the image */
-    font-size: 16px; /* Adjust text size */
+    position: relative; /* Position text relative to button. */
+    color: black; /* Text color. */
+    z-index: 1; /* Ensure text is above the image. */
+    font-size: 16px; /* Adjust text size. */
 }
 
 .result {
@@ -69,15 +71,15 @@ span {
 /* Media query to make it responsive on tablet devices. */
 @media (max-width: 768px) {
     .summoned-character {
-        flex: 1 0 45%; /* On tablets, two images per row */
-        max-width: 125px; /* Smaller max width */
+        flex: 1 0 45%; /* On tablets, two images per row. */
+        max-width: 125px; /* Smaller max width. */
     }
 }
 
 /* Media query to make it responsive on mobile devices. */
 @media (max-width: 480px) {
     .summoned-character {
-        flex: 1 0 90%; /* On phones, take up most of the width */
-        max-width: 110px; /* Further adjust max width */
+        flex: 1 0 90%; /* On phones, take up most of the width. */
+        max-width: 110px; /* Further adjust max width. */
     }
 }
