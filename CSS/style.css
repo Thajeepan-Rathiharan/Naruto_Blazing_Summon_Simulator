@@ -84,11 +84,11 @@ span {
 
 /* Media query to make it responsive on mobile devices. */
 @media (max-width: 480px) {
-    .summoned-character {
-        flex: 1 0 90%; /* On phones, take up most of the width. */
-        max-width: 110px; /* Further adjust max width. */
+    button {
+        height: 40px; /* Adjust button height for smaller screens */
     }
-    button{
-        left: 100px; /* Makes the button stay in the middle of the page on smaller screens like a phone. */
+
+    .character-image {
+        width: 80px; /* Adjust character image size */
     }
 }
