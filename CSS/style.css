@@ -1,0 +1,58 @@
+/* Body element CSS rules. */
+body {
+    font-family: 'Arial', sans-serif; /* Font style for the text, with the second set being there in case the browser doesn;t support "Arial" font type. */
+    background-color: #f0f0f0;
+    color: #333; /* Colour of the font. */
+    display: flex;
+    justify-content: center; /* Content on the page is centered in the middle. */
+    align-items: center;
+    height: 100vh; /* Sets the vertical height to be equal to the viewport. */
+    margin: 0; /* Set to 0 so it makes it easier to center the content in the middle of the page. */
+}
+
+/* CSS rules for the elements with the "container" class name. */
+.container {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px; /* Space created between the content and border. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS rules for button. */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor gets changed to a pointer instead of an arrow. */
+}
+
+/* Rules for animation to occur when hovering over the button. */
+button:hover {
+    background-color: #45a049; /* Colour can be changed using colour names too. e.g. Red, grey, yellow..*/
+}
+
+/* CSS rules for the text when the results appear. */
+.result {
+    margin-top: 20px;
+    font-size: 20px; /* Size of font can be changed here. */
+    font-weight: bold;
+}
+
+/* Rules for the character images. */
+.character-image {
+    width: 100px; /* Adjust the image size here. */
+    height: auto;
+    margin-top: 10px; /* Moves the image 10 pixels down from the top. Done so it doesn't get covered by the text, or overlap it. */
+}
+
+/* CSS rules for container/ box over the summoned characters result */
+.summoned-characters {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the items */
+    background-color: #f9f9f9; /* Optional: background color */
+}
