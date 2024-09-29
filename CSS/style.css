@@ -42,7 +42,7 @@ button {
 
 span {
     position: relative; /* Position text relative to button */
-    color: white; /* Text color */
+    color: black; /* Text color */
     z-index: 1; /* Ensure text is above the image */
     font-size: 16px; /* Adjust text size */
 }
