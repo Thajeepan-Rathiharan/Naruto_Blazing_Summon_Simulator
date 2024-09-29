@@ -82,4 +82,7 @@ span {
         flex: 1 0 90%; /* On phones, take up most of the width. */
         max-width: 110px; /* Further adjust max width. */
     }
+    button{
+        left: 100px; /* Makes the button stay in the middle of the page on smaller screens like a phone. */
+    }
 }
