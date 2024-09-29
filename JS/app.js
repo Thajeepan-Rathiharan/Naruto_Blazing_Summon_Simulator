@@ -42,7 +42,7 @@ const characters = [
     { image: "IMG/fake_itachi2.webp", weight: 40 },
     { image: "IMG/itachi.webp", weight: 1 },
     { image: "IMG/edo_itachi.webp", weight: 1 },
-    { image: "IMG/indra.webp", weight: 0.33 },
+    { image: "IMG/indra.webp", weight: 1 },
     { image: "IMG/fake_jiraiya.webp", weight: 1 },
     { image: "IMG/fake_jiraiya2.webp", weight: 40 },
     { image: "IMG/jiraiya.webp", weight: 1 },
