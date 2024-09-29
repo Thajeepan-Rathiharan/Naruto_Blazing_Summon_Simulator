@@ -29,9 +29,15 @@ button {
     width: 150px; /* Set button width. */
     height: 50px; /* Set button height. */
     overflow: hidden; /* Hide overflow. */
-    left: 200px; /* Moved buttons in the middle. */
-    margin: 20px;
+    margin: 20px; /* Space around buttons. */
 }
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally. */
+    margin-top: 20px; /* Add some space above. */
+}
+
 
 .button-image {
     width: 100%; /* Image takes full width. */
