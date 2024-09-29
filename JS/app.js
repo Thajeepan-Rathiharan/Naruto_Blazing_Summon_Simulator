@@ -1,4 +1,6 @@
 // List of characters with weights.
+// Weights are the probability of the image loading. In my case, 0.1 is 1% chance of appearing, 0.8 is 80% of appearing and 0.0033 is a 0.33% chance of appearing.
+// 3* characters have a 1% chance of appearing, 4* characters have an 80% chance of appearing, 5* units have 1% chance of appearing. The rarest/ best units in the game have been given a 0.33% chance of appearing.
 const characters = [
     { image: "IMG/anko.webp", weight: 0.1 }, 
     { image: "IMG/anko2.webp", weight: 0.8 }, 
@@ -179,7 +181,7 @@ const characters = [
     { image: "IMG/fake_shikamaru2.webp", weight: 0.8 },
     { image: "IMG/shikamaru.webp", weight: 0.0033 },
     { image: "IMG/fake_shino.webp", weight: 0.1 },
-    { image: "IMG/shisui.webp", weight: 0.8 },
+    { image: "IMG/shisui.webp", weight: 0.0033 },
     { image: "IMG/sound_ninja.webp", weight: 0.8 },
     { image: "IMG/stone_ninja.webp", weight: 0.1 },
     { image: "IMG/fake_tayuya.webp", weight: 0.1 },
